@@ -36,10 +36,16 @@ function easyLevel() {
 
         myCell.addEventListener('click',
             function () {
-                myCell.classList.add('blu');
-
-                console.log('Numero cliccato', myCell.innerHTML);
-            }
+                
+                if (myCell.classList.contains('blu')) {
+                    myCell.classList.remove('blu');
+                }
+                else {
+                    myCell.classList.add('blu');
+                }
+                
+                console.log('Numero cliccato', myCell.innerHTML);                
+        }
         )
     }   
 }
@@ -59,7 +65,13 @@ function mediumLevel() {
                     
         myCell.addEventListener('click',
             function () {
-                myCell.classList.add('blu');
+
+                if (myCell.classList.contains('blu')) {
+                    myCell.classList.remove('blu');
+                }
+                else {
+                    myCell.classList.add('blu');
+                }
 
                 console.log('Numero cliccato', myCell.innerHTML);
             }
@@ -82,7 +94,13 @@ function hardLevel() {
 
         myCell.addEventListener('click',
             function () {
-                myCell.classList.add('blu');
+                
+                if (myCell.classList.contains('blu')) {
+                    myCell.classList.remove('blu');
+                }
+                else {
+                    myCell.classList.add('blu');
+                }
 
                 console.log('Numero cliccato', myCell.innerHTML);
             }
