@@ -37,7 +37,6 @@ div.container{
     border: 2px solid violet;
 }
 
-
 .my-cell{
     width: calc(100% / 10);
     height: calc(100% / 10);
@@ -45,6 +44,11 @@ div.container{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
+}
+
+.blu{
+    background-color: blueviolet;
 }
 
 button{
